@@ -9,12 +9,16 @@
       <ul class="nav">
 
         <li class="nav-links">
-          <%= link_to "Home |", root_path %>
+          <%= link_to "Home |", "home" %>
         </li>
 
          <li class="nav-links">
           <%= link_to "What We Do |", "about" %>
         </li>
+
+         <li class="nav-links">
+          <%= link_to "Opportunities |", "opportunities" %>
+        </li>   
 
         <li class="nav-links">
           <%= link_to "Events |", "events" %>
@@ -23,13 +27,9 @@
         <li class="nav-links">
           <%= link_to "Contact |", "contact" %>
         </li>
-
-        <li class="nav-links">
-          <%= link_to "Opportunities |", "opportunities" %>
-        </li>   
       </ul>
     </div>
    </div>
-   <%= link_to image_tag("logo.jpg", :id => "logo"), root_path %>
+   <%= link_to image_tag("logo.jpg", :id => "logo"), "home" %>
 </div>
 
