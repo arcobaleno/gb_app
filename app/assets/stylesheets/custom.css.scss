@@ -207,30 +207,41 @@ footer ul li {
 
 /* About */
 
-#about_title {position:absolute;margin-top:80px;margin-left:50px;font-size:25px;}
+#about_container {margin-top:100px;margin-left:12.5%;height:300px;}
 
-#about_text {margin-top:120px;width:600px;margin-left:65px;}
+#about_title {position:absolute;margin-left:50px;font-size:25px;}
+
+#about_text {margin-top:60px;width:600px;margin-left:65px;}
 
 /* Events */
 
-#event_container {margin-left:200px;}
+#event_container {margin-top:100px;margin-left:12.5%;height:700px;}
 
-#event_title {position:absolute;margin-top:80px;margin-left:50px;font-size:25px;}
+#event_title {position:absolute;margin-left:50px;font-size:25px;}
 
 #event_text {
-            background-color:$grey;
-            height:400px;width:300px;
-            margin-top:120px;
-            border:2px solid;
-            border-radius:10px;
+    opacity:.6;
+    margin-top:60px;
+    width:600px;
+    margin-left:50px;
+    background-color:$grey;
+    height:400px;width:300px;
+    border:2px solid;
+    border-radius:10px;
           }
 
 #event_image {background-color:$grey;
-              margin-top:120px;
+              margin-top:60px;
               border:2px solid;
               border-radius:10px;}
 
-#event_map {background-color:$grey;height:220px;width:300px;margin-top:20px;}
+#event_map {background-color:$grey;
+            height:220px;
+            width:300px;
+            margin-top:20px;
+            border:2px solid;
+            border-radius:10px;
+            opacity:.8;}
 
 #event_description {background-color:$grey;
                     height:200px;
@@ -238,11 +249,12 @@ footer ul li {
                     margin-top:40px;
                     border:2px solid;
                     border-radius:10px;
+                    opacity:.7;
                   }
 
 /* Contact */
 
-#contact_container {margin-top:100px;margin-left:12.5%;}
+#contact_container {margin-top:100px;margin-left:12.5%;height:250px;}
 
 #contact_title {position:absolute;margin-left:50px;font-size:25px;}
 
@@ -254,4 +266,4 @@ footer ul li {
 
 #opportunities_title {position:absolute;margin-left:50px;font-size:25px;}
 
-#opportunities_text {margin-top:120px;width:600px;margin-left:65px;}
+#opportunities_text {margin-top:60px;width:600px;margin-left:50px;}
