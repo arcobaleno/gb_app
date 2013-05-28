@@ -98,23 +98,27 @@ height:20px;
 
 ul.nav {
   width:600px;
+
 }
+
+.nav-links{}
 
 .navbar .nav {
   float:right;
+  width:60%;
 }
 
 .navbar .nav > li > a {
   text-shadow: none;
   color: black;
+
   }
 
 .nav {
-padding-left:10px;
+padding-left:1px;
 text-shadow: none;
 position:absolute;
 top:40px;
-right:-100px;
 }
 
 #logo {
@@ -181,7 +185,6 @@ footer ul li {
   margin-bottom:20px;
   height:70%;
   width:70%;
-  border:solid 5px black;
 }
 
 .carousel-inner {
@@ -204,7 +207,7 @@ footer ul li {
 
 /* Events */
 
-#event_container {margin-left:10%;}
+#event_container {margin-left:200px;}
 
 #event_title {position:absolute;margin-top:80px;margin-left:50px;font-size:25px;}
 
@@ -212,7 +215,6 @@ footer ul li {
             background-color:$grey;
             height:400px;width:300px;
             margin-top:120px;
-            margin-left:50px;
             border:2px solid;
             border-radius:10px;
           }
@@ -222,4 +224,12 @@ footer ul li {
               border:2px solid;
               border-radius:10px;}
 
-#event_map {background-color:$grey;height:200px;width:300px;margin-top:20px;}
+#event_map {background-color:$grey;height:220px;width:300px;margin-top:20px;}
+
+#event_description {background-color:$grey;
+                    height:200px;
+                    width:800px;
+                    margin-top:40px;
+                    border:2px solid;
+                    border-radius:10px;
+                  }
