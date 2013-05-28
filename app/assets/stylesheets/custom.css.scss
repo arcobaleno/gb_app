@@ -23,7 +23,6 @@ font-color:$blue;
 }
 
 body {
-height:100%;
 }
 
 section {
@@ -236,6 +235,9 @@ footer ul li {
     border:2px solid;
     border-radius:10px;
           }
+div#event_text:hover {
+    background-color:#00BFFF;
+}
 
 #event_image {background-color:$grey;
               margin-top:60px;
@@ -258,6 +260,9 @@ footer ul li {
                     border-radius:10px;
                     opacity:.7;
                   }
+div#event_description:hover {
+    background-color:#00BFFF;
+}
 
 /* Contact */
 
@@ -265,7 +270,7 @@ footer ul li {
 
 #contact_title {position:absolute;margin-left:50px;font-size:25px;}
 
-#contact_form {margin-top:80px;margin-left:50px;}
+#contact_form {position:absolute;margin-top:60px;width:600px;margin-left:65px;}
 
 /* Opportunites */
 
@@ -273,4 +278,4 @@ footer ul li {
 
 #opportunities_title {position:absolute;margin-left:50px;font-size:25px;}
 
-#opportunities_text {margin-top:60px;width:600px;margin-left:50px;}
+#opportunities_text {position:absolute;margin-top:60px;width:600px;margin-left:50px;}
