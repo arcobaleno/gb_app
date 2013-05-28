@@ -1,0 +1,225 @@
+@import "bootstrap";
+
+/* mixins, variables, etc. */
+
+$red: #C00000;
+$green: #006600;
+$grey: #BABABA;
+$blue:#0000FF;
+
+/* universal */
+
+html {
+  overflow-y: scroll;
+}
+
+a {
+  z-index:100;
+}
+
+body {
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+/* typography */
+
+.title {
+  margin-left:5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h3 {
+  color:#A00000;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.7em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #999;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+li {
+  margin-left:15px;
+  margin-right:15px;
+}
+
+p.text {text-align:justify;padding-left:5px;padding-right:5px;}
+/* header */
+
+/* The body of layout */
+.container {width:100%;}
+
+/* Navbar */
+.navbar {
+opacity:1.0;
+background-image: none;
+margin-top:0px;
+height:20px;
+}
+
+.navbar-inner {
+    background: $blue;
+    opacity:.5;
+    filter: none;
+}
+
+ul.nav {
+  width:600px;
+}
+
+.navbar .nav {
+  float:right;
+}
+
+.navbar .nav > li > a {
+  text-shadow: none;
+  color: black;
+  }
+
+.nav {
+padding-left:10px;
+text-shadow: none;
+position:absolute;
+top:40px;
+right:-100px;
+}
+
+#logo {
+position:absolute;
+margin-top:10px;
+margin-left:10px;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Footer */
+
+footer {
+  background-color:#C0C0C0;
+  height:100px;
+  width:100%;
+  margin-top:100px;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  color: #999;
+}
+
+footer a {
+  color: #555;
+}  
+
+footer a:hover { 
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 10px;
+}
+
+/* Carousel */
+
+
+.banner {
+  
+}
+
+.item {
+  margin: auto;
+  position:absolute;
+}
+
+.carousel {
+  margin-top:10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:20px;
+  height:70%;
+  width:70%;
+  border:solid 5px black;
+}
+
+.carousel-inner {
+}
+
+.carousel-control {
+ margin-left:-100px;
+ margin-right:-100px;
+}
+
+/* Home */
+
+#boxes {margin-left:12%}
+
+#box1 {width:200px; height:200px;background-color:black;}
+
+#box2 {width:400px; height:200px;background-color:black;}
+
+#box3 {width:200px; height:200px;background-color:black;}
+
+/* Events */
+
+#event_container {margin-left:10%;}
+
+#event_title {position:absolute;margin-top:80px;margin-left:50px;font-size:25px;}
+
+#event_text {
+            background-color:$grey;
+            height:400px;width:300px;
+            margin-top:120px;
+            margin-left:50px;
+            border:2px solid;
+            border-radius:10px;
+          }
+
+#event_image {background-color:$grey;
+              margin-top:120px;
+              border:2px solid;
+              border-radius:10px;}
+
+#event_map {background-color:$grey;height:200px;width:300px;margin-top:20px;}
