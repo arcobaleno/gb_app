@@ -1,6 +1,7 @@
 GbApp::Application.routes.draw do
-   root to: 'static_pages#home'
+   root to: 'home_page.html.erb'
 
+   match "home" => "static_pages#home"
    match "about" => "static_pages#about"
    match "contact" => "static_pages#contact"
    match "events" => "static_pages#events"
