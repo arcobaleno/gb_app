@@ -17,7 +17,13 @@ a {
   z-index:100;
 }
 
+a:hover
+{ 
+font-color:$blue;
+}
+
 body {
+height:100%;
 }
 
 section {
@@ -135,10 +141,11 @@ margin-left:10px;
 /* Footer */
 
 footer {
-  background-color:#C0C0C0;
-  height:100px;
+  background-color:$grey;
+  opacity:.7;
+  height:220px;
   width:100%;
-  margin-top:100px;
+  margin-top:50px;
   margin-bottom: 0px;
   padding-top: 5px;
   color: #999;
