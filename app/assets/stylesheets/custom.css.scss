@@ -5,6 +5,7 @@
 $red: #C00000;
 $green: #006600;
 $grey: #BABABA;
+$light-grey:#D8D8D8; 
 $blue:#0033FF;
 
 /* universal */
@@ -81,6 +82,15 @@ li {
   margin-right:15px;
 }
 
+div.top_margin {background-image: url(/assets/top_margin_arc.png);
+                width:700px;
+                height:100px;
+                position:absolute;
+                top:100px;
+                margin-left:17%;
+                margin-top:40px;}
+
+
 p.text {text-align:justify;padding-left:5px;padding-right:5px;}
 /* header */
 
@@ -96,7 +106,7 @@ height:20px;
 }
 
 .navbar-inner {
-    background: $blue;
+    background: $grey;
     opacity:.35;
     filter: none;
 }
@@ -186,8 +196,7 @@ footer ul li {
 
 .carousel {
   margin-top:10%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 15%;
   margin-bottom:20px;
   height:70%;
   width:70%;
@@ -203,79 +212,93 @@ footer ul li {
 
 /* Home */
 
-#boxes {margin-left:13.5%;}
+#boxes {margin-left:15%;margin-right:0%;width:86.5%;}
 
-#box1 {width:20%; height:180px;background-color:black;}
+#box1 {width:20%; height:180px;background-color:black;margin-left:-0.1%;}
 
 #box2 {width:36.5%; height:180px;background-color:black;}
 
-#box3 {width:20%; height:180px;background-color:black;}
+#box3 {width:21%; height:180px;background-color:black;}
 
 /* About */
 
-#about_container {margin-top:100px;margin-left:12.5%;height:400px;}
+#about_container {margin-top:140px;
+                  margin-left:17%;
+                  width:700px;
+                  height:470px;
+                  background-color:$light-grey;
+                  border-color:solid 10px $grey;
+                  }
 
-#about_title {position:absolute;margin-left:50px;font-size:25px;}
+#about_title {position:absolute;margin-left:5%;font-size:25px;margin-top:50px;color:white;}
 
-#about_text {margin-top:60px;width:600px;margin-left:65px;}
+#about_text {margin-top:60px;width:600px;margin-left:7%;margin-top:100px;}
 
 /* Events */
 
-#event_container {margin-top:100px;margin-left:12.5%;height:700px;}
+#event_container {margin-top:200px;
+                  margin-left:17%;
+                  width:700px;
+                  height:750px;
+                  background-color:$light-grey;
+                  border-color:solid 10px $grey;}
 
-#event_title {position:absolute;margin-left:50px;font-size:25px;}
+#event_title {position:absolute;margin-left:5%;font-size:25px;margin-top:50px;color:white;}
 
 #event_text {
-    opacity:.6;
     margin-top:60px;
     width:600px;
-    margin-left:50px;
-    background-color:$grey;
-    height:400px;width:300px;
+    margin-left:30px;
+    height:400px;
+    width:300px;
     border:2px solid;
-    border-radius:10px;
           }
-div#event_text:hover {
-    background-color:#00BFFF;
-}
 
 #event_image {background-color:$grey;
               margin-top:60px;
+              margin-left:-20px;
               border:2px solid;
-              border-radius:10px;}
+              width:300px;
+              }
 
 #event_map {background-color:$grey;
             height:220px;
             width:300px;
             margin-top:20px;
+            margin-left:-20px;
             border:2px solid;
-            border-radius:10px;
             opacity:.8;}
 
-#event_description {background-color:$grey;
-                    height:200px;
-                    width:800px;
+#event_description {
+                    height:230px;
+                    width:650px;
                     margin-top:40px;
+                    margin-left:50px;
                     border:2px solid;
-                    border-radius:10px;
-                    opacity:.7;
                   }
-div#event_description:hover {
-    background-color:#00BFFF;
-}
 
 /* Contact */
 
-#contact_container {margin-top:100px;margin-left:12.5%;height:250px;}
+#contact_container {margin-top:200px;
+                    margin-left:17%;
+                    width:700px;
+                    height:470px;
+                    background-color:$light-grey;
+                    border-color:solid 10px $grey;}
 
-#contact_title {position:absolute;margin-left:50px;font-size:25px;}
+#contact_title {position:absolute;margin-left:5%;font-size:25px;margin-top:50px;color:white;}
 
-#contact_form {position:absolute;margin-top:60px;width:600px;margin-left:65px;}
+#contact_form {width:600px;margin-left:33px;position:absolute;margin-top:20px;}
 
 /* Opportunites */
 
-#opportunities_container {margin-top:100px;margin-left:12.5%;height:300px;}
+#opportunities_container {margin-top:200px;
+                  margin-left:17%;
+                  width:700px;
+                  height:470px;
+                  background-color:$light-grey;
+                  border-color:solid 10px $grey;}
 
-#opportunities_title {position:absolute;margin-left:50px;font-size:25px;}
+#opportunities_title {position:absolute;margin-left:5%;font-size:25px;margin-top:50px;color:white;}
 
-#opportunities_text {position:absolute;margin-top:60px;width:600px;margin-left:50px;}
+#opportunities_text {width:600px;margin-left:33px;position:absolute;margin-top:20px;}
