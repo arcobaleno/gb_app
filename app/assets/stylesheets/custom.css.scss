@@ -87,9 +87,33 @@ div.top_margin {background-image: url(/assets/top_margin_arc.png);
                 height:100px;
                 position:absolute;
                 top:100px;
-                margin-left:17%;
+                left:208px;
+                margin-left:6.7%;
                 margin-top:40px;}
 
+div.top_left_margin {background-image: url(/assets/top_left_arc.png);
+                    width:208px;
+                    height:83px;
+                    position:absolute;
+                    top:157px;
+                    margin-left:6.7%;
+                    }
+
+div.left_box_margin {background-color:$grey;
+                     position:absolute;
+                     top:240px;
+                     left:6.7%;
+                     width:208px;
+                     height:470px;}
+
+@media screen and (max-width: 800px) {
+    .top_left_margin {
+        display: none !important;
+    }
+    .left_box_margin {
+      display: none !important;
+    }
+}
 
 p.text {text-align:justify;padding-left:5px;padding-right:5px;}
 /* header */
@@ -154,10 +178,11 @@ footer {
   opacity:.7;
   height:220px;
   width:100%;
-  margin-top:50px;
+  margin-top:100%;
   margin-bottom: 0px;
   padding-top: 5px;
   color: #999;
+  position:absolute;
 }
 
 footer a {
@@ -223,7 +248,10 @@ footer ul li {
 /* About */
 
 #about_container {margin-top:140px;
-                  margin-left:17%;
+                  margin-left:6.7%;
+                  position:absolute;
+                  top:100px;
+                  left:208px;
                   width:700px;
                   height:470px;
                   background-color:$light-grey;
@@ -236,8 +264,11 @@ footer ul li {
 
 /* Events */
 
-#event_container {margin-top:200px;
-                  margin-left:17%;
+#event_container {margin-top:140px;
+                  margin-left:6.7%;
+                  position:absolute;
+                  top:100px;
+                  left:208px;
                   width:700px;
                   height:750px;
                   background-color:$light-grey;
@@ -251,13 +282,13 @@ footer ul li {
     margin-left:30px;
     height:400px;
     width:300px;
-    border:2px solid;
+    border:1px solid;
           }
 
 #event_image {background-color:$grey;
               margin-top:60px;
               margin-left:-20px;
-              border:2px solid;
+              border:1px solid;
               width:300px;
               }
 
@@ -266,7 +297,7 @@ footer ul li {
             width:300px;
             margin-top:20px;
             margin-left:-20px;
-            border:2px solid;
+            border:1px solid;
             opacity:.8;}
 
 #event_description {
@@ -279,8 +310,11 @@ footer ul li {
 
 /* Contact */
 
-#contact_container {margin-top:200px;
-                    margin-left:17%;
+#contact_container {margin-top:140px;
+                    margin-left:6.7%;
+                    position:absolute;
+                    top:100px;
+                    left:208px;
                     width:700px;
                     height:470px;
                     background-color:$light-grey;
@@ -292,8 +326,11 @@ footer ul li {
 
 /* Opportunites */
 
-#opportunities_container {margin-top:200px;
-                  margin-left:17%;
+#opportunities_container {margin-top:140px;
+                  margin-left:6.7%;
+                  position:absolute;
+                  top:100px;
+                  left:208px;
                   width:700px;
                   height:470px;
                   background-color:$light-grey;
