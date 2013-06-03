@@ -1,33 +1,18 @@
 <div class="header">
-   <div class="navbar">
-    <div class="navbar-inner">
-
-      <form class="navbar-search">
-      <input type="text" class="search-query span3" id="search" name="search" value="Search">
-      </form>
-
-      <ul class="nav">
-
-        <li class="nav-links">
-          <%= link_to "Home |", "home" %>
-        </li>
-
-         <li class="nav-links">
-          <%= link_to "What We Do |", "about" %>
-        </li>
-
-         <li class="nav-links">
-          <%= link_to "Opportunities |", "opportunities" %>
-        </li>   
-
-        <li class="nav-links">
-          <%= link_to "Events |", "events" %>
-        </li>
-
-        <li class="nav-links">
-          <%= link_to "Contact |", "contact" %>
-        </li>
-      </ul>
+   <div class="navigation-bar">
+    <div class="navigation-inner">
+    <ul>
+      <li> <%= link_to "Home", "home" %></li>
+      <li>|</li>
+      <li><%= link_to "What We Do", "about" %></li>
+      <li>|</li>
+      <li><%= link_to "Opportunities", "opportunities" %></li>
+      <li>|</li>
+      <li><%= link_to "Events", "events" %></li>
+      <li>|</li>
+      <li><%= link_to "Contact", "contact" %></li>
+    </ul>
+    </div>
     </div>
    </div>
    <%= link_to image_tag("logo.jpg", :id => "logo"), "home" %>
