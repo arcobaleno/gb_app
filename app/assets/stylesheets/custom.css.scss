@@ -113,6 +113,13 @@ div.left_box_margin_events {background-color:$grey;
                      width:208px;
                      height:770px;}
 
+div.left_box_margin_opportunities {background-color:$grey;
+                     position:absolute;
+                     top:240px;
+                     left:6.7%;
+                     width:208px;
+                     height:1330px;}
+
 @media screen and (max-width: 800px) {
     .top_left_margin {
         display: none !important;
@@ -127,6 +134,8 @@ p.text {text-align:justify;padding-left:5px;padding-right:5px;}
 
 /* The body of layout */
 .container {width:100%;}
+
+.row {margin-left:0px;}
 
 
 /* Navbar */
@@ -155,17 +164,19 @@ text-align:center;
                   position:absolute;
                   top:40px;
                   right:0px;
-                  margin-right:10%;
+                  margin-right:5%;
                   z-index:1000;
                   font-weight: bold;
 }
 
 .nav-links{}
 
+#house_icon {margin-bottom:3px;}
+
 #logo {
 position:absolute;
 margin-top:30px;
-margin-left:7.3%;
+margin-left:3.2%;
 }
 
 #logo:hover {
@@ -180,9 +191,9 @@ footer {
   opacity:.7;
   height:100px;
   width:100%;
-  margin-top:20px;
+  margin-top:3%;
   margin-bottom: 0px;
-  padding-top: 5px;
+  padding-top: 20px;
   color: #999;
   position:absolute;
 }
@@ -226,7 +237,7 @@ footer ul li {
   margin-left:auto;
   margin-right:auto;
   margin-bottom:20px;
-  width:80%;
+  width:92%;
 }
 
 .carousel-inner {
@@ -239,13 +250,13 @@ footer ul li {
 
 /* Home */
 
-#boxes {margin:0 auto;width:82.5%;}
+#boxes {margin:0 auto;width:95%;height:220px;}
 
-#box1 {width:27%; height:180px;background-color:black;margin-left:1.3%;}
+#box1 {width:27%; height:180px;margin-left:1.3%;background-color:#FFFFFF;}
 
-#box2 {width:37%; height:180px;background-color:black;}
+#box2 {width:37%; height:180px;background-color:#FFFFFF; }
 
-#box3 {width:29%; height:220px;background-color:black;}
+#box3 {width:29%; height:115%; max-height:250px;background-color:#606060;}
 
 /* About */
 
@@ -283,7 +294,7 @@ footer ul li {
 #event_text {
     margin-top:80px;
     width:600px;
-    margin-left:18px;
+    margin-left:-4px;
     height:140px;
     width:300px;
           }
@@ -292,7 +303,7 @@ p#event_text {text-decoration: bold;text-align:justify;font-weight:bold;}
 
 #event_image {background-color:$grey;
               margin-top:60px;
-              margin-left:-20px;
+              margin-left:7px;
               border:1px solid;
               width:300px;
               }
@@ -301,7 +312,7 @@ p#event_text {text-decoration: bold;text-align:justify;font-weight:bold;}
             height:220px;
             width:300px;
             margin-top:20px;
-            margin-left:75px;
+            margin-left:10px;
             border:1px solid;
             opacity:.8;}
 
@@ -309,12 +320,12 @@ p#event_text {text-decoration: bold;text-align:justify;font-weight:bold;}
                     height:230px;
                     width:650px;
                     margin-top:20px;
-                    margin-left:70px;
+                    margin-left:10px;
                   }
 
 p.event_details {font-weight:bold;}
 
-#event_details{margin-left:40px;margin-top:60px;}
+#event_details{margin-left:60px;margin-top:60px;}
 
 #content-size-events {height:1005px;}
 
@@ -344,7 +355,7 @@ p.event_details {font-weight:bold;}
                   top:100px;
                   left:208px;
                   width:700px;
-                  height:470px;
+                  height:1330px;
                   background-color:$light-grey;
                   border-color:solid 10px $grey;}
 
@@ -352,4 +363,10 @@ p.event_details {font-weight:bold;}
 
 #opportunities_text {width:600px;margin-left:33px;position:absolute;margin-top:20px;}
 
-#content-size-opportunities {height:700px;}
+#content-size-opportunities {height:1600px;}
+
+#orange-graph{border:solid 2px;margin-top:15px;margin-bottom:15px;}
+
+#blue-graph{border:solid 2px;margin-top:15px;margin-bottom:15px;}
+
+
