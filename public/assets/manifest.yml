@@ -33,6 +33,8 @@ pagination.png: pagination-5e7e6cc74777c6c05d80df428eb2277b.png
 pagination/index.png: pagination-5e7e6cc74777c6c05d80df428eb2277b.png
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
+solar_image.png: solar_image-bd31c5f050a69311115cb42d79edc184.png
+solar_image/index.png: solar_image-bd31c5f050a69311115cb42d79edc184.png
 top_large_arc.png: top_large_arc-0046ec9bd590eaeb3556a934bca1ea87.png
 top_large_arc/index.png: top_large_arc-0046ec9bd590eaeb3556a934bca1ea87.png
 top_left_arc.png: top_left_arc-2c83269392292c7a0b5ed6d50749e3ef.png
@@ -45,8 +47,8 @@ top_small_arc.png: top_small_arc-99621fab548f10911de12bdaed36fd3c.png
 top_small_arc/index.png: top_small_arc-99621fab548f10911de12bdaed36fd3c.png
 application.js: application-bbf523f1bcd392443ce9d7fe46225f38.js
 application/index.js: application-bbf523f1bcd392443ce9d7fe46225f38.js
-application.css: application-d39830c329fd7cb63f6c3d80283995ad.css
-application/index.css: application-d39830c329fd7cb63f6c3d80283995ad.css
+application.css: application-66562098a5a5056aae1f2e48697f809b.css
+application/index.css: application-66562098a5a5056aae1f2e48697f809b.css
 glyphicons-halflings-white.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings-white/index.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings.png: glyphicons-halflings-2851b489e8c39f8fad44fc10efb99c3e.png
