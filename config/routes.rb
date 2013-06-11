@@ -7,6 +7,18 @@ GbApp::Application.routes.draw do
    match "events" => "static_pages#events"
    match "opportunities" => "static_pages#opportunities"
 
+   #Energy Nav Bar
+   match "wind" => "static_pages#wind"
+   match "solar" => "static_pages#solar"
+   match "biomass" => "static_pages#biomass"
+   match "biofuel" => "static_pages#biofuel"
+   match "hydroelectric" => "static_pages#hydroelectric"
+   match "geothermic" => "static_pages#geothermic"
+   match "wastemanagement" => "static_pages#wastemanagement"
+   match "energystorage" => "static_pages#energystorage"
+   match "watertreatment" => "static_pages#watertreatment"
+   
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

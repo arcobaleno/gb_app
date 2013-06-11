@@ -406,4 +406,54 @@ p.event_details {font-weight:bold;}
 
 #blue-graph{border:solid 2px;margin-top:15px;margin-bottom:15px;}
 
-.test {}
+/* Energy Nav Bar */
+
+div.energy_container {margin-top:140px;
+                      position:absolute;
+                      margin-left:79px;
+                      top:100px;
+                      left:139px;
+                      width:700px;
+                      height:470px;
+                      background-color:$light-grey;
+                      border-color:solid 10px $grey;
+                      z-index:1000;
+                     }
+
+table {margin:auto;width:100%;}
+
+td {border: solid 2px black;}
+
+a.energy_nav:hover {
+                    background-color:$blue;
+                    }
+
+.energy_title {
+              position:absolute;
+              margin-left:5%;
+              font-size:25px;
+              margin-top:50px;
+              color:white;
+              }
+
+p.energy_text {
+              width:600px;
+              text-align:justify;
+              margin-top:10px;
+              margin-left:50px;
+             }
+
+/* Custom Solar Page */
+
+#solar_image {
+              margin-left:200px;
+             }
+
+
+
+
+
+
+
+
+
