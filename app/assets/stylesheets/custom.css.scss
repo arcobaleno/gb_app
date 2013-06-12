@@ -87,7 +87,7 @@ div.top_margin {background-image: url(/assets/top_large_arc.png);
                 position:absolute;
                 top:100px;
                 left:208px;
-                margin-left:10px;
+                margin-left:2%;
                 margin-top:40px;}
 
 div.top_left_margin {background-image: url(/assets/top_left_arc.png);
@@ -95,34 +95,34 @@ div.top_left_margin {background-image: url(/assets/top_left_arc.png);
                     height:83px;
                     position:absolute;
                     top:157px;
-                    margin-left:10px;
+                    margin-left:2%;
                     }
 
 div.left_box_margin {background-color:$grey;
                      position:absolute;
                      top:240px;
-                     left:10px;
+                     left:2%;
                      width:208px;
                      height:470px;}
 
 div.top_right_margin {background-color:$grey;
                       position:absolute;
                       top:240px;
-                      left:910px;
+                      left:925px;
                       width:308px;
                       height:470px;}
 
 div.left_box_margin_events {background-color:$grey;
                      position:absolute;
                      top:240px;
-                     left:10px;
+                     left:2%;
                      width:208px;
                      height:770px;}
 
 div.left_box_margin_opportunities {background-color:$grey;
                      position:absolute;
                      top:240px;
-                     left:10px;
+                     left:2%;
                      width:208px;
                      height:1330px;}
 
@@ -130,7 +130,7 @@ div.top_right_margin_opportunites {
                       background-color:$grey;
                       position:absolute;
                       top:240px;
-                      left:910px;
+                      left:925px;
                       width:308px;
                       height:1330px;
 }
@@ -139,7 +139,7 @@ div.top_right_margin_events {
                       background-color:$grey;
                       position:absolute;
                       top:240px;
-                      left:910px;
+                      left:925px;
                       width:308px;
                       height:770px;
 }
@@ -147,14 +147,14 @@ div.top_right_margin_events {
 div.top_right_margin_solar {background-color:$grey;
                       position:absolute;
                       top:240px;
-                      left:910px;
+                      left:925px;
                       width:308px;
                       height:630px;}
 
 div.left_box_margin_solar {background-color:$grey;
                      position:absolute;
                      top:240px;
-                     left:10px;
+                     left:25px;
                      width:208px;
                      height:630px;}
 
@@ -352,7 +352,7 @@ h2#banner_title {
                   position:absolute;
                   margin-left:79px;
                   top:100px;
-                  left:139px;
+                  left:153px;
                   width:700px;
                   height:470px;
                   background-color:$light-grey;
@@ -371,7 +371,7 @@ h2#banner_title {
                   margin-left:82px;
                   position:absolute;
                   top:100px;
-                  left:136px;
+                  left:150px;
                   width:700px;
                   height:770px;
                   background-color:$light-grey;
@@ -423,7 +423,7 @@ p.event_details {font-weight:bold;}
                     margin-left:80px;
                     position:absolute;
                     top:100px;
-                    left:137px;
+                    left:153px;
                     width:700px;
                     height:470px;
                     background-color:$light-grey;
@@ -441,7 +441,7 @@ p.event_details {font-weight:bold;}
                           margin-left:82px;
                           position:absolute;
                           top:100px;
-                          left:135px;
+                          left:150px;
                           width:700px;
                           height:1330px;
                           background-color:$light-grey;
@@ -451,7 +451,7 @@ p.event_details {font-weight:bold;}
 
 #opportunities_text {width:600px;margin-left:33px;position:absolute;margin-top:20px;}
 
-#content-size-opportunities {height:1600px;}
+#content-size-opportunities {height:1560px;}
 
 #orange-graph{border:solid 2px;margin-top:15px;margin-bottom:15px;}
 
@@ -461,10 +461,10 @@ p.event_details {font-weight:bold;}
 
 div.energy_container {margin-top:140px;
                       position:absolute;
-                      margin-left:79px;
+                      margin-left:0px;
                       top:100px;
-                      left:139px;
-                      width:700px;
+                      left:230px;
+                      width:695px;
                       height:470px;
                       background-color:$light-grey;
                       border-color:solid 10px $grey;
@@ -492,6 +492,7 @@ p.energy_text {
               text-align:justify;
               margin-top:10px;
               margin-left:50px;
+              color:white;
              }
 
 /* Custom Solar Page */
@@ -505,9 +506,9 @@ p.energy_text {
 
 div.energy_container_solar {margin-top:140px;
                       position:absolute;
-                      margin-left:79px;
+                      margin-left:0px;
                       top:100px;
-                      left:139px;
+                      left:232px;
                       width:700px;
                       height:630px;
                       background-color:$light-grey;
