@@ -23,8 +23,8 @@ logo.jpg: logo-eece33616e06545bd5eab366a1b179c5.jpg
 logo/index.jpg: logo-eece33616e06545bd5eab366a1b179c5.jpg
 logo.png: logo-9ad17492f70db78bcd2e547c4c06f8b2.png
 logo/index.png: logo-9ad17492f70db78bcd2e547c4c06f8b2.png
-map.png: map-7426e8f9eb27156d63d3a60832671e41.png
-map/index.png: map-7426e8f9eb27156d63d3a60832671e41.png
+map.png: map-deb1e045f2a49efe257f89bfde27eb36.png
+map/index.png: map-deb1e045f2a49efe257f89bfde27eb36.png
 mexico_flag2.jpg: mexico_flag2-832357dff62c5e3e8aa515f924b6ddf8.jpg
 mexico_flag2/index.jpg: mexico_flag2-832357dff62c5e3e8aa515f924b6ddf8.jpg
 orange_graph.png: orange_graph-a842f3dfab495ae184a40f06321e70a7.png
@@ -33,8 +33,8 @@ pagination.png: pagination-5e7e6cc74777c6c05d80df428eb2277b.png
 pagination/index.png: pagination-5e7e6cc74777c6c05d80df428eb2277b.png
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
-solar_image.png: solar_image-bd31c5f050a69311115cb42d79edc184.png
-solar_image/index.png: solar_image-bd31c5f050a69311115cb42d79edc184.png
+solar_image.png: solar_image-67d87a89d479396d627c3504603818a9.png
+solar_image/index.png: solar_image-67d87a89d479396d627c3504603818a9.png
 top_large_arc.png: top_large_arc-0046ec9bd590eaeb3556a934bca1ea87.png
 top_large_arc/index.png: top_large_arc-0046ec9bd590eaeb3556a934bca1ea87.png
 top_left_arc.png: top_left_arc-2c83269392292c7a0b5ed6d50749e3ef.png
@@ -47,8 +47,8 @@ top_small_arc.png: top_small_arc-99621fab548f10911de12bdaed36fd3c.png
 top_small_arc/index.png: top_small_arc-99621fab548f10911de12bdaed36fd3c.png
 application.js: application-bbf523f1bcd392443ce9d7fe46225f38.js
 application/index.js: application-bbf523f1bcd392443ce9d7fe46225f38.js
-application.css: application-66562098a5a5056aae1f2e48697f809b.css
-application/index.css: application-66562098a5a5056aae1f2e48697f809b.css
+application.css: application-80a3d0b77749142dcd10a27c9390636c.css
+application/index.css: application-80a3d0b77749142dcd10a27c9390636c.css
 glyphicons-halflings-white.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings-white/index.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings.png: glyphicons-halflings-2851b489e8c39f8fad44fc10efb99c3e.png

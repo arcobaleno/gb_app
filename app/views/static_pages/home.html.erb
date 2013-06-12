@@ -11,9 +11,16 @@
 		     
 		</div>
 
+		<div class="banner_title">
+			<h2>Banner Title</h2>
+		</div>
+		<div class="banner_text">
+			Banner Text
+		</div>
+
 		 <div id="boxes" class="center">
 		  <div class="span3" id="box1">
-		   <%= link_to(image_tag('icons.png', :class => "home_icons"), root_path) %>
+		   <%= image_tag('icons.png', :class => "home_icons", :usemap => "#icon_links") %>
 		  </div>
 
 		  <div class="span3" id="box2">
@@ -22,6 +29,21 @@
 
 		  <div class="span3" id="box3">
 		  	<h4>News Feed:</h4>
+		  	<iframe src="http://science.time.com/category/energy/" width="315" height="200" frameborder="0" id="feed-embed-stand-alone"></iframe>
 		  </div>
 		</div>
 	</div>
+
+<!-- Icon hotspots on Icons Box -->
+
+<map name="#icon_links">
+	<area shape="rect" coords="130,180,180,250" href="wind" alt="Wind"/>
+	<area shape="rect" coords="0,110,81,150" href="solar" alt="Solar"/>
+	<area shape="rect" coords="220,0,280,81" href="biomass" alt="Biomass"/>
+	<area shape="rect" coords="220,210,280,230" href="biofuel" alt="Biofuel"/>
+	<area shape="rect" coords="0,0,100,81" href="hydroelectric" alt="Hydroelectric"/>
+	<area shape="rect" coords="120,110,190,160" href="geothermic" alt="Geothermic"/>
+	<area shape="rect" coords="230,101,280,160" href="wastemanagement" alt="Waste Management"/>
+	<area shape="rect" coords="130,0,180,91" href="energystorage" alt="Energy Storage"/>
+	<area shape="rect" coords="20,200,90,250," href="watertreatment" alt="Water Treatment"/>
+</map>
