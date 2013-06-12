@@ -262,26 +262,37 @@ footer ul li {
 
 
 .banner_title {
-  width:400px;
+  width:50%;
   height:40px;
   background-color:white;
   opacity:.7;
   position:absolute;
-  top:220px;
-  left:50px;
+  top:35%;
+  left:3%;
   z-index:2000;
 }
 
+h2#banner_title {
+  color:$blue;
+}
+
 .banner_text {
-  width:300px;
-  height:100px;
+  width:49%;
+  height:20%;
   background-color:black;
   position:absolute;
-  top:270px;
-  left:80px;
+  top:41.5%;
+  left:4%;
   z-index:2000;
-  opacity:.5;
+  opacity:.4;
 }
+
+#banner_quote {opacity:1.0;
+               z-index:3000;
+               font-weight:bold;
+               color:white;
+               margin-left:5.5%;
+             }
 
 .item {
   margin: auto;
