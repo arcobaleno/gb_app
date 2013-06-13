@@ -17,6 +17,10 @@ harvard_club.png: harvard_club-592978e767e56187e31353e796adf7ee.png
 harvard_club/index.png: harvard_club-592978e767e56187e31353e796adf7ee.png
 house_icon.png: house_icon-e2a0e10c6e22884458010c843528a544.png
 house_icon/index.png: house_icon-e2a0e10c6e22884458010c843528a544.png
+hydroelectric_left.jpg: hydroelectric_left-bb104ada34262f16c8aa1ca496fbb282.jpg
+hydroelectric_left/index.jpg: hydroelectric_left-bb104ada34262f16c8aa1ca496fbb282.jpg
+hydroelectric_right.jpg: hydroelectric_right-b21a72f607cb1f1f627d3157ea07e1ee.jpg
+hydroelectric_right/index.jpg: hydroelectric_right-b21a72f607cb1f1f627d3157ea07e1ee.jpg
 icons.png: icons-7993a83e0b893d0d7c02527699059774.png
 icons/index.png: icons-7993a83e0b893d0d7c02527699059774.png
 logo.jpg: logo-eece33616e06545bd5eab366a1b179c5.jpg
@@ -45,10 +49,14 @@ top_round_margin.png: top_round_margin-a490de13b78c0e3b057ee3bba759b333.png
 top_round_margin/index.png: top_round_margin-a490de13b78c0e3b057ee3bba759b333.png
 top_small_arc.png: top_small_arc-99621fab548f10911de12bdaed36fd3c.png
 top_small_arc/index.png: top_small_arc-99621fab548f10911de12bdaed36fd3c.png
+wind_left.jpg: wind_left-e3f3b9d346e986ceeb13e1716a361499.jpg
+wind_left/index.jpg: wind_left-e3f3b9d346e986ceeb13e1716a361499.jpg
+wind_right.jpg: wind_right-117c87ba65ba1e86338a2c8e769f9cc8.jpg
+wind_right/index.jpg: wind_right-117c87ba65ba1e86338a2c8e769f9cc8.jpg
 application.js: application-bbf523f1bcd392443ce9d7fe46225f38.js
 application/index.js: application-bbf523f1bcd392443ce9d7fe46225f38.js
-application.css: application-d8a1eef6c8decd48a53edcb556c799ba.css
-application/index.css: application-d8a1eef6c8decd48a53edcb556c799ba.css
+application.css: application-a5d1769283382fa922bb1ec33b0a6ddd.css
+application/index.css: application-a5d1769283382fa922bb1ec33b0a6ddd.css
 glyphicons-halflings-white.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings-white/index.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings.png: glyphicons-halflings-2851b489e8c39f8fad44fc10efb99c3e.png

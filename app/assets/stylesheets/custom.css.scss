@@ -185,6 +185,45 @@ div.left_box_margin_solar {background-color:$grey;
 
 
 p.text {text-align:justify;padding-left:5px;padding-right:5px;}
+
+/* Energy Nav Bar */
+
+div.left_box_margin_wind {background-image: url(/assets/wind_left.jpg);
+                     opacity:.7;
+                     position:absolute;
+                     top:240px;
+                     left:25px;
+                     width:208px;
+                     height:470px;
+                     z-index:2000;}
+
+div.top_right_margin_wind {background-image: url(/assets/wind_right.jpg);
+                      opacity:.7;
+                      position:absolute;
+                      top:240px;
+                      left:925px;
+                      width:308px;
+                      height:470px;
+                      z-index:2000;}
+
+div.left_box_margin_hydroelectric {background-image: url(/assets/hydroelectric_left.jpg);
+                     opacity:.7;
+                     position:absolute;
+                     top:240px;
+                     left:25px;
+                     width:208px;
+                     height:470px;
+                     z-index:2000;}
+
+div.top_right_margin_hydroelectric {background-image: url(/assets/hydroelectric_right.jpg);
+                      opacity:.7;
+                      position:absolute;
+                      top:240px;
+                      left:925px;
+                      width:308px;
+                      height:470px;
+                      z-index:2000;}
+
 /* header */
 
 /* The body of layout */
