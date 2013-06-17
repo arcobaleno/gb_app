@@ -15,6 +15,12 @@
 //= require bootstrap
 //= require_tree .
 
+$(document).ready(function(){
+	$(".banner_text").hide(0).delay(500).fadeIn(3000)
+    $(".banner_title").hide(0).delay(500).fadeIn(3000)
+});
+
+
 $(function(){
   $('#myCarousel').carousel();
 
@@ -32,5 +38,6 @@ $(function(){
 		}
 	});
 });
+
 
 
