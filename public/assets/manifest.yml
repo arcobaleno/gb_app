@@ -1,6 +1,10 @@
 ---
 banner1.png: banner1-a349e152ef9daa2f3fae895f4a1e7f6c.png
 banner1/index.png: banner1-a349e152ef9daa2f3fae895f4a1e7f6c.png
+biofuel.jpg: biofuel-c36a6aaee3a542980032a19f06fc5b80.jpg
+biofuel/index.jpg: biofuel-c36a6aaee3a542980032a19f06fc5b80.jpg
+biomass.jpg: biomass-0efe7bfa15bfc2f3b1613ff3705ceb9d.jpg
+biomass/index.jpg: biomass-0efe7bfa15bfc2f3b1613ff3705ceb9d.jpg
 blue_graph.png: blue_graph-0132445ece049242484bd1b03d5bac63.png
 blue_graph/index.png: blue_graph-0132445ece049242484bd1b03d5bac63.png
 btns-next-prev.png: btns-next-prev-221cb199f807f7d11009e0ba9439a2f3.png
@@ -17,10 +21,6 @@ harvard_club.png: harvard_club-592978e767e56187e31353e796adf7ee.png
 harvard_club/index.png: harvard_club-592978e767e56187e31353e796adf7ee.png
 house_icon.png: house_icon-e2a0e10c6e22884458010c843528a544.png
 house_icon/index.png: house_icon-e2a0e10c6e22884458010c843528a544.png
-hydroelectric_left.jpg: hydroelectric_left-bb104ada34262f16c8aa1ca496fbb282.jpg
-hydroelectric_left/index.jpg: hydroelectric_left-bb104ada34262f16c8aa1ca496fbb282.jpg
-hydroelectric_right.jpg: hydroelectric_right-b21a72f607cb1f1f627d3157ea07e1ee.jpg
-hydroelectric_right/index.jpg: hydroelectric_right-b21a72f607cb1f1f627d3157ea07e1ee.jpg
 icons.png: icons-7993a83e0b893d0d7c02527699059774.png
 icons/index.png: icons-7993a83e0b893d0d7c02527699059774.png
 logo.jpg: logo-eece33616e06545bd5eab366a1b179c5.jpg
@@ -37,6 +37,8 @@ pagination.png: pagination-5e7e6cc74777c6c05d80df428eb2277b.png
 pagination/index.png: pagination-5e7e6cc74777c6c05d80df428eb2277b.png
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
+solar.jpg: solar-75e744ab74f22de668798aa1c75d597b.jpg
+solar/index.jpg: solar-75e744ab74f22de668798aa1c75d597b.jpg
 solar_image.png: solar_image-67d87a89d479396d627c3504603818a9.png
 solar_image/index.png: solar_image-67d87a89d479396d627c3504603818a9.png
 top_large_arc.png: top_large_arc-0046ec9bd590eaeb3556a934bca1ea87.png
@@ -49,14 +51,12 @@ top_round_margin.png: top_round_margin-a490de13b78c0e3b057ee3bba759b333.png
 top_round_margin/index.png: top_round_margin-a490de13b78c0e3b057ee3bba759b333.png
 top_small_arc.png: top_small_arc-99621fab548f10911de12bdaed36fd3c.png
 top_small_arc/index.png: top_small_arc-99621fab548f10911de12bdaed36fd3c.png
-wind_left.jpg: wind_left-e3f3b9d346e986ceeb13e1716a361499.jpg
-wind_left/index.jpg: wind_left-e3f3b9d346e986ceeb13e1716a361499.jpg
-wind_right.jpg: wind_right-117c87ba65ba1e86338a2c8e769f9cc8.jpg
-wind_right/index.jpg: wind_right-117c87ba65ba1e86338a2c8e769f9cc8.jpg
+wind.jpg: wind-6da71dea524df4552249105a3ce7758e.jpg
+wind/index.jpg: wind-6da71dea524df4552249105a3ce7758e.jpg
 application.js: application-bbf523f1bcd392443ce9d7fe46225f38.js
 application/index.js: application-bbf523f1bcd392443ce9d7fe46225f38.js
-application.css: application-a5d1769283382fa922bb1ec33b0a6ddd.css
-application/index.css: application-a5d1769283382fa922bb1ec33b0a6ddd.css
+application.css: application-3f71b63b501c871b562bf744f74e055f.css
+application/index.css: application-3f71b63b501c871b562bf744f74e055f.css
 glyphicons-halflings-white.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings-white/index.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings.png: glyphicons-halflings-2851b489e8c39f8fad44fc10efb99c3e.png
