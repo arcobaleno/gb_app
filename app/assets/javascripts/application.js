@@ -24,7 +24,6 @@ $(document).ready(function(){
 $(function(){
   $('#myCarousel').carousel();
 
-
 	var $search = $('#search');//Cache the element for faster DOM searching since we are using it more than once
 	original_val = $search.val(); //Get the original value to test against. We use .val() to grab value="Search"
 	$search.focus(function(){ //When the user tabs/clicks the search box.
