@@ -295,26 +295,31 @@ footer ul li {
 
 h2#banner_title {
   color:$blue;
+  font-size:21px;
+  padding-top:5px;
 }
 
-.banner_text {
-  width:50%;
-  height:20%;
-  background-color:black;
-  position:absolute;
-  top:46.5%;
-  left:0px;
-  z-index:2000;
-  opacity:.4;
-}
 
-#banner_quote {
+h2#banner_quote {
                opacity:1.0;
                z-index:3000;
                font-weight:bold;
                color:white;
                margin-left:5.5%;
+               font-size:14px;
              }
+
+.banner_text {
+  width:50%;
+  height:15%;
+  background-color:black;
+  position:absolute;
+  top:55%;
+  left:0px;
+  z-index:2000;
+  opacity:.4;
+}
+
 
 .item {
   margin: auto;
@@ -337,21 +342,6 @@ h2#banner_title {
  margin-left:0px;
  margin-right:0px;
 }
-
-/* Home */
-
-#boxes {margin:0 auto;width:95%;height:260px;}
-
-#box1 {width:27%;min-width:315px;height:260px;max-height:260px;margin-left:1.3%;background-color:#FFFFFF;border:solid 2px $grey;}
-
-#box2 {width:37%;min-width:315px;height:260px;max-height:260px;background-color:#FFFFFF;border:solid 2px $grey;}
-
-#box3 {width:29%;min-width:315px;height:260px;max-height:260px;background-color:#FFFFFF;border:solid 2px $grey;}
-
-.home_icons {width:300px;min-height:200px;min-width:315px;}
-
-.home_map {margin-top:15px;min-height:200px;min-width:315px;}
-
 
 /* About */
 

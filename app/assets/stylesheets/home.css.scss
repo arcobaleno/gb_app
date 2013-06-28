@@ -1,0 +1,20 @@
+/* Home Page */
+
+
+/* mixins, variables, etc. */
+
+$red: #C00000;
+$green: #006600;
+$grey: #BABABA;
+$light-grey:#D8D8D8;
+$blue:#0033FF;
+
+#box1 {border:$grey 2px solid;float:left;margin-left:4%;width:28%;}
+
+#box2 {border:$grey 2px solid;float:left;margin-left:2%;width:31%;min-height:100%;}
+
+#box3 {border:$grey 2px solid;float:left;margin-left:2%;width:28%;height:100%;}
+
+#feed-embed-stand-alone {width:99.5%;height:187px;}
+
+#icon_map {display:block;margin-left:auto;margin-right:auto;}

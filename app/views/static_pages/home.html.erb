@@ -1,47 +1,46 @@
-
-	<div class="row">
-		<div id="myCarousel" class="carousel slide">
-		      <!-- Carousel items -->
-		      <div class="carousel-inner">
-		              <div class="active item">
-		                 <%= link_to(image_tag('banner1.png', :class => "banner"), root_path ) %>
-		              </div>
-		      </div>
-		      <!-- Carousel nav -->
-			  <div class="banner_title">
-					<h2 id="banner_title">Enriching our environment with sustainable solutions</h2>
-			   </div>
-			    <div class="banner_text">
-					<h4 id="banner_quote"> “Our mission is to create the first channel for the exchange of clean technologies between Mexico and the United States”</h4>
-				</div>
-		</div>
-
-		 <div id="boxes" class="center">
-			  <div class="span2" id="box1">
-			   <%= image_tag('icons.png', :class => "home_icons", :usemap => "#icon_links") %>
-			  </div>
-
-			  <div class="span2" id="box2">
-			  	<%= link_to(image_tag('map.png', :class => "home_map"), root_path) %>
-			  </div>
-
-			  <div class="span2" id="box3">
-			  	<h4 id="news_feed">News Feed:</h4>
-			  	<iframe src="http://science.time.com/category/energy/" width="315" height="200" frameborder="0" id="feed-embed-stand-alone"></iframe>
-			  </div>
-		</div>
+<div class="row">
+	<div id="myCarousel" class="carousel slide">
+	      <!-- Carousel items -->
+	      <div class="carousel-inner">
+	              <div class="active item">
+	                 <%= link_to(image_tag('banner1.png', :class => "banner"), root_path ) %>
+	              </div>
+	      </div>
+	      <!-- Carousel nav -->
+		  <div class="banner_title">
+				<h2 id="banner_title">Enriching our environment with sustainable solutions</h2>
+		   </div>
+		    <div class="banner_text">
+				<h2 id="banner_quote"> “Our mission is to create the first channel for the exchange of clean technologies between Mexico and the United States”</h2>
+			</div>
 	</div>
+</div>
+
+<div class="row">
+		  <div id="box1">
+		   <%= image_tag('icons.png', :usemap => "#icon_links", :id => "icon_map") %>
+		  </div>
+
+		  <div id="box2">
+		  	<%= image_tag('map.png', :id => "icon_map") %>
+		  </div>
+
+		  <div id="box3">
+		  	<h4 id="news_feed">News Feed:</h4>
+		  	<iframe src="http://science.time.com/category/energy/"frameborder="0" id="feed-embed-stand-alone"></iframe>
+		  </div>
+</div>
 
 <!-- Icon hotspots on Icons Box -->
 
 <map name="#icon_links">
-	<area shape="rect" coords="130,180,180,250" href="wind" alt="Wind"/>
+	<area shape="rect" coords="130,170,180,250" href="wind" alt="Wind"/>
 	<area shape="rect" coords="20,110,81,150" href="solar" alt="Solar"/>
 	<area shape="rect" coords="220,0,280,81" href="biomass" alt="Biomass"/>
-	<area shape="rect" coords="210,190,260,230" href="biofuel" alt="Biofuel"/>
+	<area shape="rect" coords="210,160,240,210" href="biofuel" alt="Biofuel"/>
 	<area shape="rect" coords="30,20,80,81" href="hydroelectric" alt="Hydroelectric"/>
 	<area shape="rect" coords="120,110,190,160" href="geothermic" alt="Geothermal"/>
 	<area shape="rect" coords="230,101,280,160" href="wastemanagement" alt="Waste Management"/>
 	<area shape="rect" coords="130,0,180,91" href="energystorage" alt="Energy Storage"/>
-	<area shape="rect" coords="20,180,80,230," href="watertreatment" alt="Water Treatment"/>
+	<area shape="rect" coords="20,160,60,280," href="watertreatment" alt="Water Treatment"/>
 </map>
