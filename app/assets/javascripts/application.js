@@ -19,7 +19,6 @@ $(document).ready(function(){
 	$(".banner_text").hide(0).delay(500).fadeIn(3000)
     $(".banner_title").hide(0).delay(500).fadeIn(3000)
     $("h4.box_title").hide(0).delay(500).fadeIn(3000)
-    $("h4.box_title").hide(0).delay(500).fadeIn(3000)
 });
 
 
