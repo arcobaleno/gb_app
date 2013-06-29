@@ -298,10 +298,11 @@ h2#banner_title {
 h2#banner_quote {
                opacity:1.0;
                z-index:3000;
-               font-weight:bold;
                color:white;
                margin-left:5.5%;
                font-size:14px;
+               letter-spacing:0.8px;
+               font-weight: normal;
              }
 
 .banner_text {
