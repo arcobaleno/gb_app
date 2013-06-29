@@ -13,7 +13,6 @@ gem 'coffee-rails', '3.2.2'
 gem 'uglifier', '1.2.3'
 gem 'sunspot_solr'
 gem "jquery-rails", "~> 3.0.1"
-gem 'newrelic_rpm'
 
 group :development, :test do
   gem 'taps'
