@@ -1,0 +1,169 @@
+/* Energy Navbar */
+
+$red: #C00000;
+$green: #006600;
+$grey: #BABABA;
+$light-grey:#D8D8D8;
+$blue:#0033FF;
+
+/* Energy Nav Bar Generic */
+
+div.energy_container {margin-top:140px;
+                      position:absolute;
+                      top:100px;
+                      left:231px;
+                      width:695px;
+                      height:470px;
+                      background-color:$light-grey;
+                      border-color:solid 10px $grey;
+                      z-index:1000;
+                     }
+
+table {margin:auto;width:200px;font-size:13px;}
+
+td {border: solid 2px $grey;}
+
+a.energy_nav:hover {
+                    font-weight:bold;
+                   }
+
+.energy_title {
+              position:absolute;
+              margin-left:5%;
+              font-size:25px;
+              margin-top:50px;
+              color:white;
+              }
+
+p.energy_text {
+              width:600px;
+              text-align:justify;
+              margin-top:10px;
+              margin-left:50px;
+              color:white;
+              background-color:black;
+              opacity:.6;
+              padding-left:5px;
+              padding-right:5px;
+             }
+
+/* Wind */
+
+div.energy_container_wind {margin-top:140px;
+                      position:absolute;
+                      top:100px;
+                      left:231px;
+                      width:695px;
+                      height:470px;
+                      border-color:solid 10px $grey;
+                      z-index:1000;
+                      background-image: url(/assets/wind.jpg);
+                     }
+/* Solar */
+
+div.energy_container_solar {margin-top:140px;
+                      position:absolute;
+                      top:100px;
+                      left:228px;
+                      width:700px;
+                      height:650px;
+                      border-color:solid 10px $grey;
+                      z-index:1000;
+                      background-image: url(/assets/solar.jpg);
+                     }
+#solar_image {
+              margin-left:80px;
+              opacity:.8;
+             }
+
+#content-size-solar {height:740px;}
+
+/* Biomass */
+
+div.energy_container_biomass {margin-top:140px;
+                      position:absolute;
+                      top:100px;
+                      left:231px;
+                      width:695px;
+                      height:470px;
+                      border-color:solid 10px $grey;
+                      z-index:1000;
+                      background-image: url(/assets/biomass.jpg);
+                     }
+
+/* Biofuel */
+
+div.energy_container_biofuel {margin-top:140px;
+                      position:absolute;
+                      top:100px;
+                      left:231px;
+                      width:695px;
+                      height:470px;
+                      border-color:solid 10px $grey;
+                      z-index:1000;
+                      background-image: url(/assets/biofuel.jpg);
+                     }
+
+/* Hydroelectric */
+
+div.energy_container_hydroelectric {margin-top:140px;
+                      position:absolute;
+                      top:100px;
+                      left:231px;
+                      width:695px;
+                      height:470px;
+                      border-color:solid 10px $grey;
+                      z-index:1000;
+                      background-image: url(/assets/hydroelectric.jpg);
+                     }
+
+/* Geothermic */
+
+div.energy_container_geothermic {margin-top:140px;
+                      position:absolute;
+                      top:100px;
+                      left:231px;
+                      width:695px;
+                      height:470px;
+                      border-color:solid 10px $grey;
+                      z-index:1000;
+                      background-image: url(/assets/geothermic.jpg);
+                     }
+/* Waste Management */
+
+div.energy_container_waste {margin-top:140px;
+                      position:absolute;
+                      top:100px;
+                      left:231px;
+                      width:695px;
+                      height:470px;
+                      border-color:solid 10px $grey;
+                      z-index:1000;
+                      background-image: url(/assets/waste.jpg);
+                     }
+
+/* Energy Storage */
+
+div.energy_container_energy_storage {margin-top:140px;
+                      position:absolute;
+                      top:100px;
+                      left:231px;
+                      width:695px;
+                      height:470px;
+                      border-color:solid 10px $grey;
+                      z-index:1000;
+                      background-image: url(/assets/energy_storage.png);
+                     }
+
+/* Water Treatment */
+
+div.energy_container_water_treatment {margin-top:140px;
+                      position:absolute;
+                      top:100px;
+                      left:231px;
+                      width:695px;
+                      height:470px;
+                      border-color:solid 10px $grey;
+                      z-index:1000;
+                      background-image: url(/assets/water.jpg);
+                     }

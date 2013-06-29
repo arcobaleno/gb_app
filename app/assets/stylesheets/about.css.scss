@@ -1,0 +1,23 @@
+/* About */
+
+$red: #C00000;
+$green: #006600;
+$grey: #BABABA;
+$light-grey:#D8D8D8;
+$blue:#0033FF;
+
+#about_container {margin-top:140px;
+                  position:absolute;
+                  top:100px;
+                  left:233px;
+                  width:700px;
+                  height:470px;
+                  background-color:$light-grey;
+                  border-color:solid 10px $grey;
+                  }
+
+#about_title {position:absolute;margin-left:5%;font-size:25px;margin-top:50px;color:white;}
+
+#about_text {width:600px;margin-left:7%;margin-top:20px;}
+
+#content-size-about {opacity:0;height:560px;z-index:-1000;}

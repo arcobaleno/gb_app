@@ -186,15 +186,12 @@ div.left_box_margin_solar {background-color:$grey;
 
 p.text {text-align:justify;padding-left:5px;padding-right:5px;}
 
-/* Energy Nav Bar */
-
 /* header */
 
 /* The body of layout */
 .container {width:100%;}
 
 .row {margin-left:0px;}
-
 
 /* Navbar */
 
@@ -226,8 +223,6 @@ text-align:center;
                   z-index:1000;
                   font-weight: bold;
 }
-
-.nav-links{}
 
 #house_icon {margin-bottom:3px;}
 
@@ -296,7 +291,7 @@ footer ul li {
 h2#banner_title {
   color:$blue;
   font-size:21px;
-  padding-top:5px;
+  padding-top:10px;
 }
 
 
@@ -343,265 +338,5 @@ h2#banner_quote {
  margin-right:0px;
 }
 
-/* About */
-
-#about_container {margin-top:140px;
-                  position:absolute;
-                  top:100px;
-                  left:233px;
-                  width:700px;
-                  height:470px;
-                  background-color:$light-grey;
-                  border-color:solid 10px $grey;
-                  }
-
-#about_title {position:absolute;margin-left:5%;font-size:25px;margin-top:50px;color:white;}
-
-#about_text {width:600px;margin-left:7%;margin-top:20px;}
-
-#content-size-about {opacity:0;height:560px;z-index:-1000;}
-
-/* Events */
-
-#event_container {margin-top:140px;
-                  position:absolute;
-                  top:100px;
-                  left:233px;
-                  width:700px;
-                  height:770px;
-                  background-color:$light-grey;
-                  }
-
-#event_title {position:absolute;margin-left:5%;font-size:25px;margin-top:50px;color:white;}
-
-#event_text {
-    margin-top:80px;
-    width:600px;
-    margin-left:-4px;
-    height:140px;
-    width:300px;
-            }
-
-p#event_text {text-decoration:bold;text-align:justify;font-weight:bold;color:#003366;opacity:.7;}
-
-#event_image {background-color:$grey;
-              margin-top:60px;
-              margin-left:7px;
-              border:1px solid;
-              width:300px;
-              }
-
-#event_map {background-color:$grey;
-            height:220px;
-            width:300px;
-            margin-top:20px;
-            margin-left:10px;
-            border:1px solid;
-            opacity:.8;}
-
-td#map_link {border:none;}
-
-#event_description {
-                    height:230px;
-                    width:650px;
-                    margin-top:20px;
-                    margin-left:10px;
-                  }
-
-p.event_details {font-weight:bold;}
-
-#event_details{margin-left:60px;margin-top:60px;color:#003366;opacity:.7;}
-
-#content-size-events {height:860px;}
-
-/* Contact */
-
-#contact_container {margin-top:140px;
-                    position:absolute;
-                    top:100px;
-                    left:233px;
-                    width:700px;
-                    height:680px;
-                    background-color:$light-grey;
-                    border-color:solid 10px $grey;}
-
-#contact_title {position:absolute;margin-left:5%;font-size:25px;margin-top:50px;color:white;}
-
-#contact_form {position:absolute;left:-120px;width:810px;height:650px;top:0px;}
-
-#content-size-contact {height:770px;}
-
-.contact_info{margin-left:10px;margin-top:110px;}
-
-/* Opportunites */
-
-#opportunities_container {margin-top:140px;
-                          position:absolute;
-                          top:100px;
-                          left:233px;
-                          width:700px;
-                          height:1350px;
-                          background-color:$light-grey;
-                          border-color:solid 10px $grey;}
-
-#opportunities_title {position:absolute;margin-left:5%;font-size:25px;margin-top:50px;color:white;}
-
-#opportunities_text {width:600px;margin-left:33px;position:absolute;margin-top:20px;}
-
-#content-size-opportunities {height:1440px;}
-
-#orange-graph{border:solid 2px;margin-top:15px;margin-bottom:15px;}
-
-#blue-graph{border:solid 2px;margin-top:15px;margin-bottom:15px;}
-
-/* Energy Nav Bar */
-
-div.energy_container {margin-top:140px;
-                      position:absolute;
-                      top:100px;
-                      left:231px;
-                      width:695px;
-                      height:470px;
-                      background-color:$light-grey;
-                      border-color:solid 10px $grey;
-                      z-index:1000;
-                     }
-
-table {margin:auto;width:695px;font-size:13px;}
-
-td {border: solid 2px $grey;}
-
-a.energy_nav:hover {
-                    font-weight:bold;
-                    }
-
-.energy_title {
-              position:absolute;
-              margin-left:5%;
-              font-size:25px;
-              margin-top:50px;
-              color:white;
-              }
-
-p.energy_text {
-              width:600px;
-              text-align:justify;
-              margin-top:10px;
-              margin-left:50px;
-              color:white;
-              background-color:black;
-              opacity:.6;
-              padding-left:5px;
-              padding-right:5px;
-             }
-
-/* Custom Solar Page */
-
-#solar_image {
-              margin-left:80px;
-              opacity:.8;
-             }
-
-#content-size-solar {height:740px;}
-
-div.energy_container_solar {margin-top:140px;
-                      position:absolute;
-                      top:100px;
-                      left:228px;
-                      width:700px;
-                      height:650px;
-                      border-color:solid 10px $grey;
-                      z-index:1000;
-                      background-image: url(/assets/solar.jpg);
-                     }
-
-/* Energy Nav Bar Center Images */
-
-div.energy_container_wind {margin-top:140px;
-                      position:absolute;
-                      top:100px;
-                      left:231px;
-                      width:695px;
-                      height:470px;
-                      border-color:solid 10px $grey;
-                      z-index:1000;
-                      background-image: url(/assets/wind.jpg);
-                     }
-
-div.energy_container_biomass {margin-top:140px;
-                      position:absolute;
-                      top:100px;
-                      left:231px;
-                      width:695px;
-                      height:470px;
-                      border-color:solid 10px $grey;
-                      z-index:1000;
-                      background-image: url(/assets/biomass.jpg);
-                     }
-
-div.energy_container_biofuel {margin-top:140px;
-                      position:absolute;
-                      top:100px;
-                      left:231px;
-                      width:695px;
-                      height:470px;
-                      border-color:solid 10px $grey;
-                      z-index:1000;
-                      background-image: url(/assets/biofuel.jpg);
-                     }
-
-div.energy_container_hydroelectric {margin-top:140px;
-                      position:absolute;
-                      top:100px;
-                      left:231px;
-                      width:695px;
-                      height:470px;
-                      border-color:solid 10px $grey;
-                      z-index:1000;
-                      background-image: url(/assets/hydroelectric.jpg);
-                     }
 
 
-div.energy_container_geothermic {margin-top:140px;
-                      position:absolute;
-                      top:100px;
-                      left:231px;
-                      width:695px;
-                      height:470px;
-                      border-color:solid 10px $grey;
-                      z-index:1000;
-                      background-image: url(/assets/geothermic.jpg);
-                     }
-
-div.energy_container_waste {margin-top:140px;
-                      position:absolute;
-                      top:100px;
-                      left:231px;
-                      width:695px;
-                      height:470px;
-                      border-color:solid 10px $grey;
-                      z-index:1000;
-                      background-image: url(/assets/waste.jpg);
-                     }
-
-div.energy_container_energy_storage {margin-top:140px;
-                      position:absolute;
-                      top:100px;
-                      left:231px;
-                      width:695px;
-                      height:470px;
-                      border-color:solid 10px $grey;
-                      z-index:1000;
-                      background-image: url(/assets/energy_storage.png);
-                     }
-
-div.energy_container_water_treatment {margin-top:140px;
-                      position:absolute;
-                      top:100px;
-                      left:231px;
-                      width:695px;
-                      height:470px;
-                      border-color:solid 10px $grey;
-                      z-index:1000;
-                      background-image: url(/assets/water.jpg);
-                     }

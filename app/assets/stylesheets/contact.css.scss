@@ -1,0 +1,24 @@
+/* Contact */
+
+$red: #C00000;
+$green: #006600;
+$grey: #BABABA;
+$light-grey:#D8D8D8;
+$blue:#0033FF;
+
+#contact_container {margin-top:140px;
+                    position:absolute;
+                    top:100px;
+                    left:233px;
+                    width:700px;
+                    height:680px;
+                    background-color:$light-grey;
+                    border-color:solid 10px $grey;}
+
+#contact_title {position:absolute;margin-left:5%;font-size:25px;margin-top:50px;color:white;}
+
+#contact_form {position:absolute;left:-120px;width:810px;height:650px;top:0px;}
+
+#content-size-contact {height:770px;}
+
+.contact_info{margin-left:10px;margin-top:110px;}

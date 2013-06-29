@@ -1,0 +1,26 @@
+/* Opportunities */
+
+$red: #C00000;
+$green: #006600;
+$grey: #BABABA;
+$light-grey:#D8D8D8;
+$blue:#0033FF;
+
+#opportunities_container {margin-top:140px;
+                          position:absolute;
+                          top:100px;
+                          left:233px;
+                          width:700px;
+                          height:1350px;
+                          background-color:$light-grey;
+                          border-color:solid 10px $grey;}
+
+#opportunities_title {position:absolute;margin-left:5%;font-size:25px;margin-top:50px;color:white;}
+
+#opportunities_text {width:600px;margin-left:33px;position:absolute;margin-top:20px;}
+
+#content-size-opportunities {height:1440px;}
+
+#orange-graph{border:solid 2px;margin-top:15px;margin-bottom:15px;}
+
+#blue-graph{border:solid 2px;margin-top:15px;margin-bottom:15px;}
