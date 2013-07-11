@@ -11,7 +11,7 @@ $dark-grey:#505050;
 
 /* Normal Screen Size */
 
-@media screen and (min-width:1100px) and (max-width:1390px) {
+@media all and (min-width:1100px) and (max-width:1390px) {
 /* Carousel */
 
 .banner_title {
@@ -92,7 +92,7 @@ h4.box_title {background-color:$grey;width:180px;height:25px;padding-top:5px;opa
 
 /* Mini Screen View */
 
-@media screen and (min-width:640px) and (max-width:1100px) {
+@media all and (min-width:640px) and (max-width:1100px) {
 /* Carousel */
 
 .banner_title {
@@ -173,7 +173,7 @@ h4.box_title {background-color:$grey;width:180px;height:25px;padding-top:5px;opa
 
 /* 640px Screen */
 
-@media screen and (max-width:640px) {
+@media all and (max-width:640px) {
 
 /* Carousel Banner */
 
@@ -243,7 +243,7 @@ h4.box_title {background-color:$grey;width:180px;height:25px;padding-top:5px;opa
 }
 
 /* Smallest View */
-@media screen and (max-width:400px) {
+@media all and (max-width:400px) {
     /* Boxes */
 
 #boxes {}
@@ -264,7 +264,7 @@ h4.box_title {background-color:$grey;width:180px;height:25px;padding-top:5px;opa
 
 /* Extra Large Screen View */
 
-@media screen and (min-width:1390px) {
+@media all and (min-width:1390px) {
 
 #boxes {}
 
@@ -282,7 +282,7 @@ h4.box_title {background-color:$grey;width:180px;height:25px;padding-top:5px;opa
 
 }
 
-@media handheld and (max-width:640px) {
+@media all and (max-width:640px) {
 
 /* Carousel Banner */
 
