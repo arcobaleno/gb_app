@@ -14,7 +14,7 @@
 		<h5>Boston, MA 02210</h5>
 		</br>
 		<h3>Mexico:</h3>
-		<h5>venida Parque Via Reforma 1920.</h5>
+		<h5>Avenida Parque Via Reforma 1920.</h5>
 		<h5>Colonia Lomas de Chapultepec</h5>
 		<h5>Mexico D.F. 11000</h5>
 		</br>
@@ -24,37 +24,67 @@
 </div>
 
 <div id="contact_container">
-	<div class="contact_box">
-		<div class="contact_form">
-			<div class="row">
-				<%= form_for(@contact) do |f| %>
+	<div class="contact_form">
+		<div class="row">
+			<%= form_for(@contact) do |f| %>
 
-				<h3> Your Details: </h3>
+			<h3 id="contact_title"> Your Details: </h3>
+			<table id="contact_table">
+				<tr>
+					<td>
+			<%= f.label :last_name, "Last Name" %>
+					</td>
+					<td>
+			<%= f.text_field :last_name %>
+					</td>
+				</tr>
+				<tr>
+					<td>
+			<%= f.label :first_name, "First Name" %>
+					</td>
+					<td>
+			<%= f.text_field :first_name %>
+					</td>
+				</tr>
+				<tr>
+					<td>
+			<%= f.label :company, "Company" %>
+					</td>
+					<td>
+			<%= f.text_field :company %>
+					</td>
+				</tr>
+				<tr>
+					<td>
+			<%= f.label :phone, "Phone Number" %>
+					</td>
+					<td>
+			<%= f.text_field :phone %>
+					</td>
+				</tr>
+				<tr>
+					<td>
+			<%= f.label :email, "Email" %>
+					</td>
+					<td>
+			<%= f.text_field :email %>
+					</td>
+				</tr>
+				<tr>
+					<td>
+			<%= f.label :message,  "Message" %>
+					</td>
+					<td>
+			<%= f.text_area :message, :cols => "2", :rows => "2" %>
+					</td>
+				</tr>
+			</table>
+		</div>
 
-				<%= f.label :last_name, "Last Name" %>
-				<%= f.text_field :last_name %>
+		<div class="row" id="submit">
+			<%= f.submit "Send Your Request", class: "btn btn-large btn-primary" %>
 
-				<%= f.label :first_name, "First Name" %>
-				<%= f.text_field :first_name %>
-
-				<%= f.label :company, "Company" %>
-				<%= f.text_field :company %>
-
-				<%= f.label :phone, "Phone Number" %>
-				<%= f.text_field :phone %>
-
-				<%= f.label :email, "Email" %>
-				<%= f.text_field :email %>
-
-				<%= f.label :message,  "Message" %>
-				<%= f.text_area :message, :cols => "2", :rows => "2" %>
-			</div>
-
-			<div class="row" id="submit">
-				<%= f.submit "Send Your Request", class: "btn btn-large btn-primary" %>
-
-				<% end %>
-			</div>
+			<% end %>
 		</div>
 	</div>
 </div>
