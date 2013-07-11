@@ -56,4 +56,14 @@ div#twitter {
 
 @media only screen and (max-width:640px) {
 	nav#footer_links {position:absolute;top:20px;left:12px;}
+	footer {
+  	background-color:$dark-grey;
+  	opacity:.7;
+  	height:100px;
+  	width:100%;
+  	margin-top:610px;
+  	margin-bottom: 0px;
+  	padding-top: 20px;
+  	position:absolute;
+	}
 }
