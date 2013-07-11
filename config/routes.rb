@@ -1,11 +1,16 @@
 GbApp::Application.routes.draw do
    root to: 'static_pages#home'
 
+   resources :contacts
+
+   #Main Static Pages
    match "home" => "static_pages#home"
    match "about" => "static_pages#about"
-   match "contact" => "static_pages#contact"
    match "events" => "static_pages#events"
    match "opportunities" => "static_pages#opportunities"
+
+   #Projects
+   match "project_one" => "static_pages#project_one"
 
    #Energy Nav Bar
    match "wind" => "static_pages#wind"
@@ -18,7 +23,6 @@ GbApp::Application.routes.draw do
    match "energystorage" => "static_pages#energystorage"
    match "watertreatment" => "static_pages#watertreatment"
    
-
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

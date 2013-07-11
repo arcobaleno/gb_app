@@ -1,0 +1,66 @@
+<div class="top_left_margin"></div>
+<div class="left_box_margin_contact"></div>
+<div class="top_margin">
+		<h1 id="contact_title">Contact Us</h1>
+</div>
+
+<div class="top_right_margin_contact">
+	<div class="contact_info">
+		<h4>Contact Information</h4>
+
+		<h3>Boston:</h3>
+		<h5>337 Summer St.</h5>
+		<h5>Ground Floor</h5>
+		<h5>Boston, MA 02210</h5>
+		</br>
+		<h3>Mexico:</h3>
+		<h5>venida Parque Via Reforma 1920.</h5>
+		<h5>Colonia Lomas de Chapultepec</h5>
+		<h5>Mexico D.F. 11000</h5>
+		</br>
+		<h3>Email:</h3>
+		<h5>Email: info@globalcatalysts.com.mx</h5>
+	</div>
+</div>
+
+<div id="contact_container">
+	<div class="contact_box">
+		<div class="contact_form">
+			<div class="row">
+				<%= form_for(@contact) do |f| %>
+
+				<h3> Your Details: </h3>
+
+				<%= f.label :last_name, "Last Name" %>
+				<%= f.text_field :last_name %>
+
+				<%= f.label :first_name, "First Name" %>
+				<%= f.text_field :first_name %>
+
+				<%= f.label :company, "Company" %>
+				<%= f.text_field :company %>
+
+				<%= f.label :phone, "Phone Number" %>
+				<%= f.text_field :phone %>
+
+				<%= f.label :email, "Email" %>
+				<%= f.text_field :email %>
+
+				<%= f.label :message,  "Message" %>
+				<%= f.text_area :message, :cols => "2", :rows => "2" %>
+			</div>
+
+			<div class="row" id="submit">
+				<%= f.submit "Send Your Request", class: "btn btn-large btn-primary" %>
+
+				<% end %>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+		  <div class="center" id="content-size-contact">
+		  
+		  </div>
+</div>

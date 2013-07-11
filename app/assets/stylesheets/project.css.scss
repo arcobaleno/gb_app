@@ -1,0 +1,58 @@
+/* Project */
+
+$red: #C00000;
+$green: #006600;
+$grey: #BABABA;
+$light-grey:#D8D8D8;
+$blue:#0033FF;
+
+.project_container {margin-top:140px;
+                  position:absolute;
+                  top:100px;
+                  left:233px;
+                  width:700px;
+                  height:470px;
+                  background-color:$light-grey;
+                  border-color:solid 10px $grey;
+                  }
+
+.project_box_top_left {
+			position:relative;
+			height:200px;
+			width:340px;
+			background-color:black;
+			top:10px;
+			left:0px;
+}
+
+.project_box_top_right {
+			position:relative;
+			height:340px;
+			width:340px;
+			background-color:white;
+			top:-190px;
+			left:350px;
+}
+
+.project_box_bottom_left {
+			position:relative;
+			height:180px;
+			width:340px;
+			background: url(image_path('grey_stripe.png')) repeat center top;
+			top:-321px;
+			left:0px;
+
+}
+
+.project_box_bottom_right {
+			position:relative;
+			height:60px;
+			width:340px;
+			background-color:black;
+			top:-390px;
+			left:350px;
+}
+
+h5.project_status {
+	color:white;
+}

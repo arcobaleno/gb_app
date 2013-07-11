@@ -21,6 +21,8 @@ example-slide-4.jpg: example-slide-4-9900463c8006c64129e282eb065a3ca5.jpg
 example-slide-4/index.jpg: example-slide-4-9900463c8006c64129e282eb065a3ca5.jpg
 geothermic.jpg: geothermic-af0d4ec1a7076cb4b0d35514e23ad875.jpg
 geothermic/index.jpg: geothermic-af0d4ec1a7076cb4b0d35514e23ad875.jpg
+grey_stripe.png: grey_stripe-57e23a043fe4fe1e5cbeb1561f2d5c5e.png
+grey_stripe/index.png: grey_stripe-57e23a043fe4fe1e5cbeb1561f2d5c5e.png
 harvard_club.png: harvard_club-592978e767e56187e31353e796adf7ee.png
 harvard_club/index.png: harvard_club-592978e767e56187e31353e796adf7ee.png
 house_icon.png: house_icon-e2a0e10c6e22884458010c843528a544.png
@@ -65,8 +67,8 @@ wind.jpg: wind-6da71dea524df4552249105a3ce7758e.jpg
 wind/index.jpg: wind-6da71dea524df4552249105a3ce7758e.jpg
 application.js: application-36f82ed30ff9893fdb889d1399eeefad.js
 application/index.js: application-36f82ed30ff9893fdb889d1399eeefad.js
-application.css: application-8b44937268d73005890ef1f257023cfa.css
-application/index.css: application-8b44937268d73005890ef1f257023cfa.css
+application.css: application-430968100a3b5b36f805f32c244b96c4.css
+application/index.css: application-430968100a3b5b36f805f32c244b96c4.css
 jquery.min.map: jquery.min-1c0cf7b6a3425fbd9a3bfccab0a99a4e.map
 jquery/index.min.map: jquery.min-1c0cf7b6a3425fbd9a3bfccab0a99a4e.map
 glyphicons-halflings-white.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png

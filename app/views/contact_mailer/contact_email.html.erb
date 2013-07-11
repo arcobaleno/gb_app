@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <style>
+    .bold {font-weight:bold;}
+    </style>
+  </head>
+  <body>
+    <h1>Contact Info</h1>
+
+    <table>
+    <tr>
+      <td style="font-weight:bold;"> Last Name:</th>
+      <td> <%= @contact_from.last_name %>
+    </p></td>
+    </tr>
+    <tr>
+      <td style="font-weight:bold;vertical-align:text-top;"> First Name:</th>
+      <td><%= @contact_from.first_name %></td>
+    </tr>
+
+    <tr>
+      <td style="font-weight:bold;vertical-align:text-top;">Company:</th>
+      <td><%= @contact_from.company %></td>
+    </tr>
+    <tr>
+      <td style="font-weight:bold;vertical-align:text-top;">Email:</th>
+      <td><%= @contact_from.email %></td>
+    </tr>
+    <tr>
+      <td style="font-weight:bold;vertical-align:text-top;">Phone:</th>
+      <td><%= @contact_from.phone %></td>
+    </tr>
+    <tr>
+      <td style="font-weight:bold;vertical-align:text-top;">Message:</th>
+      <td><%= @contact_from.message %></td>
+    </tr>
+    <tr>
+      <td style="font-weight:bold;vertical-align:text-top;">Date Sent:</th>
+      <td><%= @contact_from.created_at %></td>
+    </tr>
+   </table>
+  </body>
+</html>

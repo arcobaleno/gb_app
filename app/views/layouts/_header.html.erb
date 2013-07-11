@@ -2,29 +2,29 @@
    <div class="navigation-bar">
     <div class="navigation-inner">
     <ul>
-      <li><%= link_to image_tag("house_icon.png", :id => "house_icon"), "home" %></li>
-      <li><%= link_to "Home", "home" %></li>
+      <li><%= link_to image_tag("house_icon.png", :id => "house_icon"), "/home" %></li>
+      <li><%= link_to "Home", "/home" %></li>
       <li>|</li>
-      <li><%= link_to "What We Do", "about" %></li>
+      <li><%= link_to "What We Do", "/about" %></li>
       <li>|</li>
-      <li><%= link_to "Opportunities", "opportunities" %></li>
+      <li><%= link_to "Opportunities", "/opportunities" %></li>
       <li>|</li>
       <li id="fat-menu" class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
           Projects <b class="caret"></b>
         </a>
         <ul class="dropdown-menu">
-          <li> <%= link_to "Phase 1", root_path %></li>
+          <li> <%= link_to "Zacatecas Phase 1", "/project_one" %></li>
         </ul>
       </li>
       <li>|</li>
-      <li><%= link_to "Events", "events" %></li>
+      <li><%= link_to "Events", "/events" %></li>
       <li>|</li>
-      <li><%= link_to "Contact", "contact" %></li>
+      <li><%= link_to "Contact", "/contacts/new" %></li>
     </ul>
     </div>
     </div>
    </div>
-   <%= link_to image_tag("logo.jpg", :id => "logo"), "home" %>
+   <%= link_to image_tag("logo.jpg", :id => "logo"), "/home" %>
 </div>
 

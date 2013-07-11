@@ -1,0 +1,40 @@
+<li>
+  <div class="contact_partial">
+  <table>
+    <tr>
+      <th> Last Name:</th>
+      <td><%= contact.last_name %></td>
+    </tr>
+    <tr>
+      <th> First Name:</th>
+      <td><%= contact.first_name %></td>
+    </tr>
+
+    <tr>
+      <th>Company:</th>
+      <td><%= contact.company %></td>
+    </tr>
+    <tr>
+      <th>Email:</th>
+      <td><%= contact.email %></td>
+    </tr>
+    <tr>
+      <th>Phone:</th>
+      <td><%= contact.phone %></td>
+    </tr>
+    <tr>
+      <th>Message:</th>
+      <td><%= contact.message %></td>
+    </tr>
+    <tr>
+      <th>Date Created</th>
+      <td><%= contact.created_at %></td>
+    </tr>
+    <tr>
+      <td>
+        <%= link_to "Delete", contact, :method => :delete, confirm: "You sure?" %>
+      </td>
+    </tr>
+   </table>
+  </div>
+ </li>

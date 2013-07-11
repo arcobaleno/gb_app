@@ -1,0 +1,169 @@
+/* Navbar */
+
+$red: #C00000;
+$green: #006600;
+$grey: #BABABA;
+$light-grey:#D8D8D8;
+$blue:#0033FF;
+$dark-grey:#505050;
+
+/* Normal Screen Size */
+@media screen and (min-width:640px) {
+/* Navbar */
+  ul
+  {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  }
+  li
+  {
+  display:inline;
+  text-align:center;
+  }
+
+  .navigation-bar {
+                  background: $dark-grey;
+                  width:100%;
+                  height:30px;
+                  list-style: none;
+                  position:absolute;
+                  opacity:0.8;
+  }
+
+  .navigation-inner {
+                    position:absolute;
+                    top:40px;
+                    right:0px;
+                    margin-right:5%;
+                    z-index:1000;
+                    font-weight: bold;
+  }
+
+  #house_icon {margin-bottom:3px;}
+
+  #logo {
+  position:absolute;
+  margin-top:30px;
+  margin-left:3.2%;
+  z-index:1000;
+  }
+
+  #logo:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+/* Mini Screen View */
+
+@media screen and (min-width:640px) and (max-width:1100px) {
+  .navigation-inner {
+                  position:absolute;
+                  top:30px;
+                  right:-20px;
+                  margin-left:360px;
+                  z-index:1000;
+                  font-weight:bold;
+  }
+}
+
+/* Mobile View */
+@media screen and (min-width:400px) and (max-width:640px) {
+/* Navbar */
+  ul
+  {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  }
+  li
+  {
+  display:table;
+  text-align:center;
+  }
+
+  .navigation-bar {
+                  background: $dark-grey;
+                  width:100%;
+                  height:30px;
+                  list-style: none;
+                  position:absolute;
+                  opacity:0.8;
+  }
+
+  .navigation-inner {
+                    position:absolute;
+                    top:140px;
+                    right:20px;
+                    margin-right:none;
+                    margin-left:90%;
+                    z-index:1000;
+                    font-weight: bold;
+  }
+
+  #house_icon {margin-bottom:3px;}
+
+  #logo {
+  position:absolute;
+  margin-top:30px;
+  right:20%%;
+  z-index:1000;
+  }
+
+  #logo:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+/* Smallest View */
+@media screen and (max-width:400px) {
+
+  /* Navbar */
+  ul
+  {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  }
+  li
+  {
+  display:table;
+  text-align:center;
+  }
+
+  .navigation-bar {
+                  background: $dark-grey;
+                  width:100%;
+                  height:30px;
+                  list-style: none;
+                  position:absolute;
+                  opacity:0.8;
+  }
+
+  .navigation-inner {
+                    visibility:hidden;
+                    position:absolute;
+                    top:140px;
+                    right:20px;
+                    margin-right:none;
+                    margin-left:90%;
+                    z-index:1000;
+                    font-weight: bold;
+  }
+
+  #house_icon {margin-bottom:3px;}
+
+  #logo {
+  position:absolute;
+  margin-top:30px;
+  right:20%%;
+  z-index:1000;
+  }
+
+  #logo:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+}
