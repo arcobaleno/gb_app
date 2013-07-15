@@ -19,6 +19,8 @@ example-slide-3.jpg: example-slide-3-535e5b3d693dec5d4c2113d3dbe6ac02.jpg
 example-slide-3/index.jpg: example-slide-3-535e5b3d693dec5d4c2113d3dbe6ac02.jpg
 example-slide-4.jpg: example-slide-4-9900463c8006c64129e282eb065a3ca5.jpg
 example-slide-4/index.jpg: example-slide-4-9900463c8006c64129e282eb065a3ca5.jpg
+facebooklogo.png: facebooklogo-2bf45105fdf355b83816094f2745c5f9.png
+facebooklogo/index.png: facebooklogo-2bf45105fdf355b83816094f2745c5f9.png
 geothermic.jpg: geothermic-af0d4ec1a7076cb4b0d35514e23ad875.jpg
 geothermic/index.jpg: geothermic-af0d4ec1a7076cb4b0d35514e23ad875.jpg
 grey_stripe.png: grey_stripe-57e23a043fe4fe1e5cbeb1561f2d5c5e.png
@@ -29,6 +31,10 @@ house_icon.png: house_icon-e2a0e10c6e22884458010c843528a544.png
 house_icon/index.png: house_icon-e2a0e10c6e22884458010c843528a544.png
 hydroelectric.jpg: hydroelectric-6c31f273da0d495b36cdd803a36b9edc.jpg
 hydroelectric/index.jpg: hydroelectric-6c31f273da0d495b36cdd803a36b9edc.jpg
+hydroelectric_left.jpg: hydroelectric_left-bb104ada34262f16c8aa1ca496fbb282.jpg
+hydroelectric_left/index.jpg: hydroelectric_left-bb104ada34262f16c8aa1ca496fbb282.jpg
+hydroelectric_right.jpg: hydroelectric_right-b21a72f607cb1f1f627d3157ea07e1ee.jpg
+hydroelectric_right/index.jpg: hydroelectric_right-b21a72f607cb1f1f627d3157ea07e1ee.jpg
 icons.png: icons-7a50860cadc59445a95d6241f6d7955c.png
 icons/index.png: icons-7a50860cadc59445a95d6241f6d7955c.png
 logo.jpg: logo-eece33616e06545bd5eab366a1b179c5.jpg
@@ -65,6 +71,10 @@ water.jpg: water-f32afacb1ac81e4686ddea1af92bf0e3.jpg
 water/index.jpg: water-f32afacb1ac81e4686ddea1af92bf0e3.jpg
 wind.jpg: wind-6da71dea524df4552249105a3ce7758e.jpg
 wind/index.jpg: wind-6da71dea524df4552249105a3ce7758e.jpg
+wind_left.jpg: wind_left-e3f3b9d346e986ceeb13e1716a361499.jpg
+wind_left/index.jpg: wind_left-e3f3b9d346e986ceeb13e1716a361499.jpg
+wind_right.jpg: wind_right-117c87ba65ba1e86338a2c8e769f9cc8.jpg
+wind_right/index.jpg: wind_right-117c87ba65ba1e86338a2c8e769f9cc8.jpg
 application.js: application-36f82ed30ff9893fdb889d1399eeefad.js
 application/index.js: application-36f82ed30ff9893fdb889d1399eeefad.js
 application.css: application-c8f3a612ac5bf49ebef61ffa657716b3.css
