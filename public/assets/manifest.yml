@@ -21,6 +21,8 @@ example-slide-4.jpg: example-slide-4-9900463c8006c64129e282eb065a3ca5.jpg
 example-slide-4/index.jpg: example-slide-4-9900463c8006c64129e282eb065a3ca5.jpg
 facebooklogo.png: facebooklogo-2bf45105fdf355b83816094f2745c5f9.png
 facebooklogo/index.png: facebooklogo-2bf45105fdf355b83816094f2745c5f9.png
+favicon.ico: favicon-43c1725cc02be6573ebdc935768b8251.ico
+favicon/index.ico: favicon-43c1725cc02be6573ebdc935768b8251.ico
 geothermic.jpg: geothermic-af0d4ec1a7076cb4b0d35514e23ad875.jpg
 geothermic/index.jpg: geothermic-af0d4ec1a7076cb4b0d35514e23ad875.jpg
 grey_stripe.png: grey_stripe-57e23a043fe4fe1e5cbeb1561f2d5c5e.png
@@ -77,8 +79,8 @@ wind_right.jpg: wind_right-117c87ba65ba1e86338a2c8e769f9cc8.jpg
 wind_right/index.jpg: wind_right-117c87ba65ba1e86338a2c8e769f9cc8.jpg
 application.js: application-36f82ed30ff9893fdb889d1399eeefad.js
 application/index.js: application-36f82ed30ff9893fdb889d1399eeefad.js
-application.css: application-c8f3a612ac5bf49ebef61ffa657716b3.css
-application/index.css: application-c8f3a612ac5bf49ebef61ffa657716b3.css
+application.css: application-87231ce908b49e8ba53bee815a06375c.css
+application/index.css: application-87231ce908b49e8ba53bee815a06375c.css
 jquery.min.map: jquery.min-1c0cf7b6a3425fbd9a3bfccab0a99a4e.map
 jquery/index.min.map: jquery.min-1c0cf7b6a3425fbd9a3bfccab0a99a4e.map
 glyphicons-halflings-white.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
