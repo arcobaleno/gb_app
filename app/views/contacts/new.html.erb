@@ -6,19 +6,19 @@
 
 <div class="top_right_margin_contact">
 	<div class="contact_info">
-		<h4>Contact Information</h4>
+		<h4>Our Contact Information</h4>
 
-		<h3>Boston:</h3>
+		<h3 class="city">Boston<span class="colon">:</span></h3>
 		<h5>337 Summer St.</h5>
 		<h5>Ground Floor</h5>
 		<h5>Boston, MA 02210</h5>
 		</br>
-		<h3>Mexico:</h3>
+		<h3 class="city">Mexico<span class="colon">:</span></h3>
 		<h5>Avenida Parque Via Reforma 1920.</h5>
 		<h5>Colonia Lomas de Chapultepec</h5>
 		<h5>Mexico D.F. 11000</h5>
 		</br>
-		<h3>Email:</h3>
+		<h3 class="city">Email<span class="colon">:</span></h3>
 		<h5>Email: info@globalcatalysts.com.mx</h5>
 	</div>
 </div>
@@ -28,7 +28,7 @@
 		<div class="row">
 			<%= form_for(@contact) do |f| %>
 
-			<h3 id="contact_title"> Your Details: </h3>
+			<h3 id="contact_title"> Your Details<span class="colon">:</span></h3>
 			<table id="contact_table">
 				<tr>
 					<td>
@@ -82,7 +82,7 @@
 		</div>
 
 		<div class="row" id="submit">
-			<%= f.submit "Send Your Request", class: "btn btn-large btn-primary" %>
+			<%= f.submit "Send Your Request", class: "contact_button" %>
 
 			<% end %>
 		</div>

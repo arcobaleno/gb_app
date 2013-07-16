@@ -13,17 +13,17 @@ $blue:#0033FF;
 	                left:233px;
 	                width:700px;
 	                height:680px;
-	                background-color:$light-grey;
+	                background-color:white;
 	                border-color:solid 10px $grey;
                    }
 
-h1#contact_title {position:absolute;margin-left:5%;font-size:25px;margin-top:50px;color:white;}
+h1#contact_title {font-family:Century;position:absolute;margin-left:5%;font-size:25px;margin-top:50px;color:white;}
 
 #contact_form {position:absolute;left:-120px;width:810px;height:650px;top:0px;}
 
 #content-size-contact {height:760px;}
 
-.contact_info{margin-left:10px;margin-top:110px;}
+.contact_info{margin-left:10px;margin-top:34px;}
 
 /* Contact Form */
 
@@ -35,11 +35,15 @@ table#contact_table {width:400px;}
 
  h4 {padding:10px;text-align:center;}
 
- h3#contact_title {position:relative;top:0px;left:15px;}
+ h3.city {font-family:Century;color:black;}
+
+ h3#contact_title {font-family:Century;color:black;position:relative;top:0px;left:15px;}
 
  h5 {margin-left:50px;}
 
- .row {margin-left:0px;}
+ span.colon {font-family:Times;}
+
+ .row {margin-left:0px;margin-top:30px;}
 
 #submit {margin-left:270px;}
 
@@ -51,4 +55,13 @@ h4#contact_index_title {
 		margin-top:120px;
 }
 
-
+.contact_button {
+	position:relative;
+	right:145px;
+    background:#d80000;
+    color:white;
+    padding-left:110px;
+    padding-right:110px;
+    height:35px;
+    border:none;
+}
