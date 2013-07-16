@@ -282,6 +282,8 @@ h4.box_title {background-color:$grey;width:180px;height:25px;padding-top:5px;opa
 
 }
 
+/* Apple Iphone View */
+
 @media all and (max-width:640px) {
 
 /* Carousel Banner */
@@ -343,7 +345,7 @@ h2#banner_quote {
 
 #box3 {border:$grey 2px solid;float:left;width:300px;height:100%;}
 
-#feed-embed-stand-alone {width:99.5%;height:225px;}
+#feed-embed-stand-alone {width:300px;height:225px;}
 
 #icon_map {display:block;margin-left:auto;margin-right:auto;}
 
