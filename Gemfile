@@ -18,6 +18,9 @@ group :development, :test do
   gem 'taps'
   gem 'pg'
   gem 'rspec-rails', '2.11.0'
+  gem 'guard-livereload', require: false
+  gem 'rack-livereload'
+  gem 'rb-fsevent',       require: false
   # gem 'guard-rspec', '1.2.1'
   # gem 'guard-spork', '1.2.0'  
   # gem 'spork', '0.9.2'

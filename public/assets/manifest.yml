@@ -21,6 +21,7 @@ example-slide-4.jpg: example-slide-4-9900463c8006c64129e282eb065a3ca5.jpg
 example-slide-4/index.jpg: example-slide-4-9900463c8006c64129e282eb065a3ca5.jpg
 facebooklogo.png: facebooklogo-2bf45105fdf355b83816094f2745c5f9.png
 facebooklogo/index.png: facebooklogo-2bf45105fdf355b83816094f2745c5f9.png
+favicon: favicon
 favicon.ico: favicon-43c1725cc02be6573ebdc935768b8251.ico
 favicon/index.ico: favicon-43c1725cc02be6573ebdc935768b8251.ico
 geothermic.jpg: geothermic-af0d4ec1a7076cb4b0d35514e23ad875.jpg
