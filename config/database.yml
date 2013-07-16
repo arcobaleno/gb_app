@@ -16,7 +16,7 @@ development:
   adapter: postgresql
   database: gb_app
   pool: 5
-  username: travisbrault
+  username: vannguyen
   password:
   host: localhost
 
