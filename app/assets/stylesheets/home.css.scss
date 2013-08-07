@@ -9,6 +9,91 @@ $light-grey:#D8D8D8;
 $blue:#0033FF;
 $dark-grey:#505050;
 
+/* Extra Large Screen Size */
+
+@media all and (min-width:1391px) and (max-width:2000px) {
+  /* Carousel */
+
+.banner {
+  width:100%;
+}
+
+.banner_title {
+  width:300px;
+  height:20%;
+  background-color:white;
+  opacity:.7;
+  position:absolute;
+  top:35%;
+  left:0px;
+  z-index:2000;
+}
+
+h2#banner_title {
+  color:$blue;
+  font-size:21px;
+  padding-top:10px;
+}
+
+h2#banner_quote {
+               opacity:1.0;
+               z-index:3000;
+               color:white;
+               margin-left:5.5%;
+               font-size:14px;
+               letter-spacing:0.8px;
+               font-weight: normal;
+             }
+
+.banner_text {
+  width:50%;
+  height:15%;
+  background-color:black;
+  position:absolute;
+  top:55%;
+  left:0px;
+  z-index:2000;
+  opacity:.4;
+}
+
+.item {
+  margin: auto;
+  position:absolute;
+}
+
+.carousel {
+  margin-top:7%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:20px;
+  width:92%;
+  z-index:2000;
+}
+
+.carousel-inner {
+}
+
+.carousel-control {
+ margin-left:0px;
+ margin-right:0px;
+}
+
+#boxes {margin-top:0px;}
+
+#box1 {border:$grey 2px solid;float:left;width:28%;}
+
+#box2 {border:$grey 2px solid;float:left;margin-left:2%;width:38.8%;min-height:100%;}
+
+#box3 {border:$grey 2px solid;float:left;margin-left:2%;width:28%;height:290px;}
+
+#feed-embed-stand-alone {width:300px;height:225px;margin-left:auto;margin-right:auto;}
+
+#icon_map {display:block;margin-left:auto;margin-right:auto;}
+
+h4.box_title {background-color:$grey;width:180px;height:25px;padding-top:5px;opacity:.7;}
+
+}
+
 /* Normal Screen Size */
 
 @media all and (min-width:1100px) and (max-width:1390px) {
@@ -260,24 +345,4 @@ h4.box_title {background-color:$grey;width:180px;height:25px;padding-top:5px;opa
 
 h4.box_title {background-color:$grey;width:180px;height:25px;padding-top:5px;opacity:.7;}
     
-}
-
-/* Extra Large Screen View */
-
-@media all and (min-width:1390px) {
-
-#boxes {}
-
-#box1 {border:$grey 2px solid;float:left;width:360px;margin-top:0px;}
-
-#box2 {border:$grey 2px solid;float:left;width:500px;margin-left:290px;height:290px;margin-top:0px;}
-
-#box3 {border:$grey 2px solid;float:left;width:360px;margin-left:290px;height:290px;margin-top:0px;}
-
-#feed-embed-stand-alone {width:300px;height:225px;}
-
-#icon_map {display:block;margin-left:auto;margin-right:auto;}
-
-h4.box_title {background-color:$grey;width:180px;height:25px;padding-top:5px;opacity:.7;}
-
 }
